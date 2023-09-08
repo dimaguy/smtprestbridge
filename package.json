@@ -1,0 +1,14 @@
+{
+  "name": "smtprestbridge",
+  "version": "1.0.0",
+  "description": "SMTP-Rest Bridge designed to work with cloudflare-email",
+  "main": "index.js",
+  "author": "Dimaguy",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mailparser": "^3.6.5",
+    "smtp-server": "^3.13.0"
+  }
+}
