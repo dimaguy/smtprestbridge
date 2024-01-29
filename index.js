@@ -44,12 +44,13 @@ const SMTPoptions = {
                 to: (parsed.to != undefined) ? parsed.to.value : undefined,
                 subject: (parsed.subject != undefined) ? parsed.subject : "(No Subject)",
                 text: parsed.text,
+                html: parsed.html,
                 bcc: (parsed.bcc != undefined) ? parsed.bcc.value : undefined,
                 cc: (parsed.cc != undefined) ? parsed.cc.value : undefined,
                 replyTo: (parsed.replyTo != undefined) ? parsed.replyTo.value : undefined
             }
             console.log(JSON.stringify(mail));
-            RESToptions.headers["Content-Length"] = JSON.stringify(mail).length;
+            RESToptions.headers["Content-Length"] = Buffer.byteLength(JSON.stringify(mail));
             console.log(RESToptions);
             const req = https.request(RESToptions, (res) => {
                 console.log(res.statusCode);
