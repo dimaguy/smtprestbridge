@@ -169,11 +169,6 @@ mailsplit@5.4.0:
     libmime "5.2.0"
     libqp "2.0.1"
 
-nodemailer@6.9.4:
-  version "6.9.4"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.4.tgz#93bd4a60eb0be6fa088a0483340551ebabfd2abf"
-  integrity sha512-CXjQvrQZV4+6X5wP6ZIgdehJamI63MFoYFGGPtHudWym9qaEHDNdPzaj5bfMCvxG1vhAileSWW90q7nL0N36mA==
-
 nodemailer@6.9.9:
   version "6.9.9"
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.9.tgz#4549bfbf710cc6addec5064dd0f19874d24248d9"
@@ -192,6 +187,11 @@ peberminta@^0.9.0:
   resolved "https://registry.yarnpkg.com/peberminta/-/peberminta-0.9.0.tgz#8ec9bc0eb84b7d368126e71ce9033501dca2a352"
   integrity sha512-XIxfHpEuSJbITd1H3EeQwpcZbTLHc+VVr8ANI9t5sit565tsI4/xK3KWTUFE2e6QiangUkh3B0jihzmGnNrRsQ==
 
+punycode@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
+  integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
+
 "safer-buffer@>= 2.1.2 < 3.0.0":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
@@ -204,14 +204,15 @@ selderee@^0.11.0:
   dependencies:
     parseley "^0.12.0"
 
-smtp-server@^3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/smtp-server/-/smtp-server-3.13.0.tgz#014d67d5065ea067b0120954aaa8a5ce7353c39c"
-  integrity sha512-thVFqpwrHIJ25rXjXA6RYFUO35el2O+X7WJ006qMVAyFs5Ss6XGPJASg7Fh1QvT28ADIv9hGGXmgR+kaSEikwQ==
+smtp-server@^3.13.2:
+  version "3.13.2"
+  resolved "https://registry.yarnpkg.com/smtp-server/-/smtp-server-3.13.2.tgz#0cab8a9533db8e4afef638fd2592c0136bdfba70"
+  integrity sha512-MWHAmsIlrfffQ75RDruOr5DhOJF8sPeG4iSW8a0euhOjaV107OGaRo30RXmmnmoKxS1mvaL+dtSEKbgev/9YeQ==
   dependencies:
     base32.js "0.1.0"
     ipv6-normalize "1.0.1"
-    nodemailer "6.9.4"
+    nodemailer "6.9.9"
+    punycode "2.3.1"
 
 tlds@1.248.0:
   version "1.248.0"
