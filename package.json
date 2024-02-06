@@ -9,6 +9,6 @@
   "dependencies": {
     "dotenv": "^16.4.1",
     "mailparser": "^3.6.7",
-    "smtp-server": "^3.13.0"
+    "smtp-server": "^3.13.2"
   }
 }
