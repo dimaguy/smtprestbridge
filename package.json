@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "dotenv": "^16.4.4",
+    "dotenv": "^16.4.5",
     "mailparser": "^3.6.7",
     "smtp-server": "^3.13.2"
   }
