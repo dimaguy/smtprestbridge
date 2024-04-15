@@ -8,7 +8,7 @@
   "private": false,
   "dependencies": {
     "dotenv": "^16.4.5",
-    "mailparser": "^3.6.9",
+    "mailparser": "^3.7.0",
     "smtp-server": "^3.13.3"
   }
 }
