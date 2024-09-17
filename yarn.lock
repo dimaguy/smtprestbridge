@@ -190,6 +190,11 @@ nodemailer@6.9.13:
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.13.tgz#5b292bf1e92645f4852ca872c56a6ba6c4a3d3d6"
   integrity sha512-7o38Yogx6krdoBf3jCAqnIN4oSQFx+fMa0I7dK1D+me9kBxx12D+/33wSb+fhOCtIxvYJ+4x4IMEhmhCKfAiOA==
 
+nodemailer@6.9.15:
+  version "6.9.15"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.15.tgz#57b79dc522be27e0e47ac16cc860aa0673e62e04"
+  integrity sha512-AHf04ySLC6CIfuRtRiEYtGEXgRfa6INgWGluDhnxTZhHSKvrBu7lc1VVchQ0d8nPc4cFaZoPq8vkyNoZr0TpGQ==
+
 parseley@^0.12.0:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/parseley/-/parseley-0.12.1.tgz#4afd561d50215ebe259e3e7a853e62f600683aef"
@@ -208,11 +213,6 @@ punycode.js@2.3.1:
   resolved "https://registry.yarnpkg.com/punycode.js/-/punycode.js-2.3.1.tgz#6b53e56ad75588234e79f4affa90972c7dd8cdb7"
   integrity sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==
 
-punycode@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
-  integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
-
 "safer-buffer@>= 2.1.2 < 3.0.0":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
@@ -225,15 +225,15 @@ selderee@^0.11.0:
   dependencies:
     parseley "^0.12.0"
 
-smtp-server@^3.13.4:
-  version "3.13.4"
-  resolved "https://registry.yarnpkg.com/smtp-server/-/smtp-server-3.13.4.tgz#e188e75c296259fb420397d9fb605288910a6b90"
-  integrity sha512-BbElv5UP+HgPtCZtcRW35N/GFoc4DzPkrbSMLioXsrVMmQT1mMBoO0k+egl264hxWaWczoVvadSPY2pLUINFXg==
+smtp-server@^3.13.5:
+  version "3.13.5"
+  resolved "https://registry.yarnpkg.com/smtp-server/-/smtp-server-3.13.5.tgz#4d44a23a77b1d7328a56cbb88f6c6b09e1c48dac"
+  integrity sha512-1+Jkr5Wx9dyWY2MCJ0DauyVM0gn3uN5ldAmRef/k/zwv/SaogDIhzqAdAMbU3dZPv2wfqcj7VAGvZL8RYw+naQ==
   dependencies:
     base32.js "0.1.0"
     ipv6-normalize "1.0.1"
-    nodemailer "6.9.13"
-    punycode "2.3.1"
+    nodemailer "6.9.15"
+    punycode.js "2.3.1"
 
 tlds@1.252.0:
   version "1.252.0"
