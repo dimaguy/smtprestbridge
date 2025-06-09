@@ -160,15 +160,15 @@ mailsplit@5.4.2:
     libmime "5.3.6"
     libqp "2.1.1"
 
-nodemailer@6.9.15:
-  version "6.9.15"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.15.tgz#57b79dc522be27e0e47ac16cc860aa0673e62e04"
-  integrity sha512-AHf04ySLC6CIfuRtRiEYtGEXgRfa6INgWGluDhnxTZhHSKvrBu7lc1VVchQ0d8nPc4cFaZoPq8vkyNoZr0TpGQ==
-
 nodemailer@6.9.16:
   version "6.9.16"
   resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.16.tgz#3ebdf6c6f477c571c0facb0727b33892635e0b8b"
   integrity sha512-psAuZdTIRN08HKVd/E8ObdV6NO7NTBY3KsC30F7M4H1OnmLCUNaS56FpYxyb26zWLSyYF9Ozch9KYHhHegsiOQ==
+
+nodemailer@7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-7.0.3.tgz#c098ce79ac60c7c111a86949eed2f99bd00cdac3"
+  integrity sha512-Ajq6Sz1x7cIK3pN6KesGTah+1gnwMnx5gKl3piQlQQE/PwyJ4Mbc8is2psWYxK3RJTVeqsDaCv8ZzXLCDHMTZw==
 
 parseley@^0.12.0:
   version "0.12.1"
@@ -200,14 +200,14 @@ selderee@^0.11.0:
   dependencies:
     parseley "^0.12.0"
 
-smtp-server@^3.13.6:
-  version "3.13.6"
-  resolved "https://registry.yarnpkg.com/smtp-server/-/smtp-server-3.13.6.tgz#779aa22fd3746bb8b94d25ab78447b6e4b7d5b78"
-  integrity sha512-dqbSPKn3PCq3Gp5hxBM99u7PET7cQSAWrauhtArJbc+zrf5xNEOjm9+Ob3lySySrRoIEvNE0dz+w2H/xWFJNRw==
+smtp-server@^3.13.8:
+  version "3.13.8"
+  resolved "https://registry.yarnpkg.com/smtp-server/-/smtp-server-3.13.8.tgz#1a7c97d317c795428101c0542069dfe4e1e38eec"
+  integrity sha512-bKYZ/ortxX8Wvi7bCT/daoo1aS1BI1CNoWkonXOLXtWhSccWmBikcMlbpHSzUjmv+vNZQDfOv4b55mhpjPlSsg==
   dependencies:
     base32.js "0.1.0"
     ipv6-normalize "1.0.1"
-    nodemailer "6.9.15"
+    nodemailer "7.0.3"
     punycode.js "2.3.1"
 
 tlds@1.255.0:
